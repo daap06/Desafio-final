@@ -1,13 +1,23 @@
-/* #prueba {
-    background-size: contain;
-} */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
 
 .d-block {
     /* background-size: cover; */
-    height: 37rem;
+    height: 43rem;
 }
 
 #logo {
     width: 20px;
+    text-decoration: none;
     
+}
+.d-flex{
+    text-decoration: none;
+    color: #fff;
 }
