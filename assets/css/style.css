@@ -1,0 +1,13 @@
+/* #prueba {
+    background-size: contain;
+} */
+
+.d-block {
+    /* background-size: cover; */
+    height: 37rem;
+}
+
+#logo {
+    width: 20px;
+    
+}
