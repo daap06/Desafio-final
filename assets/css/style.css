@@ -52,10 +52,14 @@ body {
 .card {
     margin-bottom: 20px;
 }
+#Espacio{
+    padding-left: 150px;
+}
 
 /* Se establece relleno interno, se elimina decoración del hipervinculo y se asignar color blanco a la clase */
 .fa-brands {
     padding-left: 5px;
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
 }
