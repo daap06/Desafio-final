@@ -14,3 +14,22 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function(){
+
+    $('.navbar #logo, .navbar p').on('click', function(){
+        location.reload(true);
+    })   
+})
+
+$(document).ready(function() {
+    $("#ConsultaCliente").submit(function(event){
+        event.preventDefault();
+
+        $("#mensajeExito").fadeIn();
+
+        $("#ConsultaCliente")[0].reset();
+    });
+});
+
+
