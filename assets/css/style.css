@@ -1,9 +1,9 @@
-/* html{
-    scroll-behavior: smooth;
-} */
-
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+.colorMain{
+    background-color: #000;
 }
 
 .container-fluid{
@@ -11,7 +11,6 @@ body{
 }
 
 .d-block {
-    /* background-size: cover; */
     height: 43rem;
 }
 
@@ -41,4 +40,10 @@ body{
 
 .card{
     margin-bottom: 20px;
+}
+
+.fa-brands{
+    padding-left: 5px;
+    text-decoration: none;
+    color: #fff;
 }
