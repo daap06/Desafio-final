@@ -1,0 +1,61 @@
+/* Se asigna font family a body */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Cambio de color al main */
+.colorMain {
+    background-color: #000;
+}
+
+/* Se elimina espaciado interno de la clase */
+.container-fluid {
+    padding: 0;
+}
+
+/* Se establece alto para la clase */
+.d-block {
+    height: 43rem;
+}
+
+/* Se define tamaño de logo y se elimina linea del hipervinculo */
+#logo {
+    width: 20px;
+    text-decoration: none;
+
+}
+
+/* se elimina linea del hipervinculo y se asigna color blanco */
+.d-flex {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Se oculta sección en pantallas pequeñas */
+@media screen and (max-width: 576px) {
+    section#Nosotros {
+        display: none;
+    }
+}
+
+/* Se establece color de fondo para la clase */
+.card-body {
+    background-color: #0dcaf0;
+}
+
+/* Se establece tamaño especifico a la clase */
+.card-img-top {
+    height: 150px;
+}
+
+/* Se asigna margen inferior a la clase */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Se establece relleno interno, se elimina decoración del hipervinculo y se asignar color blanco a la clase */
+.fa-brands {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #fff;
+}
